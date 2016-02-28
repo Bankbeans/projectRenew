@@ -476,9 +476,6 @@ h1, h2, h3 {
             -ms-flex-align: center;
                     -ms-grid-row-align: center;
                 align-items: center; } }
-    @media (max-width: 480px) {
-      .energy__listItems {
-        width: 100%; } }
     .energy__listItems li {
       width: 18%;
       padding: 10px;
@@ -510,6 +507,9 @@ h1, h2, h3 {
       @media (max-width: 767px) {
         .energy__listItems li {
           width: 50%; } }
+      @media (max-width: 480px) {
+        .energy__listItems li {
+          width: 100%; } }
   .energy__itemInfo {
     display: none;
     width: 80%;
