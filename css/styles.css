@@ -476,6 +476,9 @@ h1, h2, h3 {
             -ms-flex-align: center;
                     -ms-grid-row-align: center;
                 align-items: center; } }
+    @media (max-width: 480px) {
+      .energy__listItems {
+        width: 100%; } }
     .energy__listItems li {
       width: 18%;
       padding: 10px;
@@ -535,6 +538,9 @@ svg {
       width: 30%; } }
   svg path {
     fill: #D3F2CB; }
+  @media (max-width: 480px) {
+    svg.geothermal {
+      min-width: 30%; } }
 
 .legendContainer {
   list-style: none;
